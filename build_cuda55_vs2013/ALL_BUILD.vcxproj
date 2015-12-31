@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7EA1D2E4-2FFC-4D81-AFF9-094C275F3144}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master -BC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013 --check-stamp-file C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\UseSuiteSparseForInstall.cmake.in;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master -BC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013 --check-stamp-file C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\UseSuiteSparseForInstall.cmake.in;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master -BC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013 --check-stamp-file C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\UseSuiteSparseForInstall.cmake.in;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master -BC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013 --check-stamp-file C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\UseSuiteSparseForInstall.cmake.in;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/GPUQREngine.vcxproj">
+      <Project>10271748-23FE-4F7A-8F95-332DF6846C64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/SuiteSparse_GPURuntime/SuiteSparse_GPURuntime.vcxproj">
+      <Project>62E08023-806F-4F85-BF77-C97510ACFD3B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/ZERO_CHECK.vcxproj">
+      <Project>CC269B95-2F01-4039-9924-4EC5E937DE81</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/AMD/amd.vcxproj">
+      <Project>D0222731-CBA5-48C0-8EE5-4CBB124B6D5A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/BTF/btf.vcxproj">
+      <Project>5AE3F9CB-A47F-4E06-A000-8C7FD22D3C94</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/CAMD/camd.vcxproj">
+      <Project>46943B30-408A-41E3-A83A-6DFEBAEDAD51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/CCOLAMD/ccolamd.vcxproj">
+      <Project>7A0DFDD6-AFBA-4DE4-922E-6E78173189F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/CHOLMOD/cholmod.vcxproj">
+      <Project>AF3E6B92-9DEA-496F-BFFB-D9D93D8C5E48</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/cmpfillin.vcxproj">
+      <Project>B9804111-7428-4434-852D-93BF95E52598</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/COLAMD/colamd.vcxproj">
+      <Project>721AB3D5-36B9-4DB9-A543-754A3F8F0138</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/CXSparse/cxsparse.vcxproj">
+      <Project>4D8ACA0B-35B9-409C-B626-3C1DF4B68ADC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/gpmetis.vcxproj">
+      <Project>16DEBC84-7A33-489A-A583-4D5B86A941D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/graphchk.vcxproj">
+      <Project>E5E4BFAB-9A81-4890-B9BA-AA0ED3AAE67F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/KLU/klu.vcxproj">
+      <Project>B9700585-F39A-42AB-8E5F-246ED2A72BFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/LDL/ldl.vcxproj">
+      <Project>A9FAA28A-0DE5-4133-A704-19B9B73968B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/m2gmetis.vcxproj">
+      <Project>FDBC7D25-6F7C-4756-AEA6-33523F3DA6CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/libmetis/metis.vcxproj">
+      <Project>9B3F1AFB-2A80-4127-830B-CC8EB8E1CB27</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/mpmetis.vcxproj">
+      <Project>BB41E5D5-1FFB-4257-8B8A-EE205F1B7E07</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/metis/programs/ndmetis.vcxproj">
+      <Project>A84D9EB7-4433-47C8-A744-35C0B755EE6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/SPQR/spqr.vcxproj">
+      <Project>2AB934E4-8F3B-4ACB-B764-AD1C19828B0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/SuiteSparse_config/suitesparseconfig.vcxproj">
+      <Project>258B7C31-D623-4782-A779-90C7E0D8EC23</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/UMFPACK/umfpack.vcxproj">
+      <Project>A2A212BB-2671-45B2-96EB-380C5A9681C6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

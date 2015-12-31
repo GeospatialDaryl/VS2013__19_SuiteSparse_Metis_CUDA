@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\b64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\blas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\csr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\evaluate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\fkvkselect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\fs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\gkregex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\graph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\htable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\itemsets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\mcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\omp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\pdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\pqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\rw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\seq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\tokenizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\GKlib\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\auxapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\balance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\bucketsort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\checkgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\coarsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\contig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\fm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\fortran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\frename.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\gklib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\graph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\initpart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\kmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\kwayfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\kwayrefine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\mcutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\meshpart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\minconn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\mincover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\mmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\ometis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\parmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\pmetis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\refine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\separator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\sfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\srefine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\timing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\wspace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\metis\libmetis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AB0AB967-DD98-4968-A8C6-B38C16D5897B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,318 @@
+ C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/bin/nvcc.exe  -M -m64 -D __CUDACC__  -DGPU_BLAS -DNCOMPLEX -D__MINGW32__  -Xcompiler /VERBOSE/,"/DWIN32","/D_WINDOWS","/W3","/GR","/EHsc","/MD","/O2","/Ob2","/D","NDEBUG" -ccbin C:/Program Files (x86)/Microsoft VisualStudio 10.0/VC/bin/cl.exe-DNVCC-I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include"-IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include"C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu-oC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+1> 
+
+
+"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/bin/nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft VisualStudio 10.0\VC\bin\amd64\cl.exe" -M -m64 -D__CUDACC__ -DGPU_BLAS -DNCOMPLEX -D__MINGW32__ -Xcompiler "/VERBOSE","/DWIN32","/D_WINDOWS","/W3","/GR","/EHsc","/MD","/O2","/Ob2","/DNDEBUG" -DNVCC -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft VisualStudio 10.0\VC\bin\AMD64\cl.exe"  C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+
+
+
+
+--gpu-architecture=sm_20
+
+WORKING
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+-
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" --gpu-architecture=sm_20 -Xcompiler="/VERBOSE","/DWIN32","/D_WINDOWS","/W3","/GR","/EHsc","/MD","/O2","/Ob2","/DNDEBUG" -DNVCC -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include"   C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+_runs_  add :   -M -m64 -D__CUDACC__ -DGPU_BLAS -DNCOMPLEX -D__MINGW32__ 
+-ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" --gpu-architecture=sm_20 -M -m64 -D__CUDACC__ -DGPU_BLAS -DNCOMPLEX -D__MINGW32__  -Xcompiler="/VERBOSE","/DWIN32","/D_WINDOWS","/W3","/GR","/EHsc","/MD","/O2","/Ob2","/DNDEBUG" -DNVCC -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include"   C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend
+
+
+
+now the obj
+
+"C:/Program Files  (x86)/CMake/bin/cmake.exe"  -Dinput_file:FILEPATH=C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.NVCC-depend -Doutput_file:FILEPATH=C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend.tmp -P "C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindCUDA/make2cmake.cmake"
+
+cmake.exe -Dinput_File=C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend -Doutput_file=C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\build_cuda55_vs2013\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend.tmp -P "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA\make2cmake.cmake"
+
+
+
+
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" --gpu-architecture=sm_20 -Xcompiler="/VERBOSE","/DWIN32","/D_WINDOWS","/W3","/GR","/EHsc","/MD","/O2","/Ob2","/DNDEBUG"  -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include"   C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/Source/GPUQREngine_UberKernel.cu -o C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/SuiteSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj
+
+
+GOT IT
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(148): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(148): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(148): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(488): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(494): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(502): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(522): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(121): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-f
+or-windows-master/SuiteSparse/GPUQREngine/Include\Kernel/Factorize/factorize_vt.
+cu(472): Warning: Cannot tell what pointer points to, assuming global memory spa
+ce
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+108): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+117): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+117): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+117): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(251): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(251): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(251): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+108): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+117): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+135): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(251): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(9
+8): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+108): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply.cu(
+117): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(251): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\cevta_tile.cu(7
+5): Warning: Cannot tell what pointer points to, assuming global memory space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+./c:\users\dkvandyke\source\repos\19_suitesparse_metis_for_win\suitesparse-metis
+-for-windows-master\suitesparse\gpuqrengine\include\kernel\apply\block_apply_chu
+nk.cu(447): Warning: Cannot tell what pointer points to, assuming global memory
+space
+ptxas C:/Users/DKVAND~1/AppData/Local/Temp/tmpxft_0000366c_00000000-7_GPUQREngin
+e_UberKernel.ptx, line 238; : warning : Double is not supported. Demoting to flo
+at
+ptxas : error : Entry function '_Z8qrKernelP14TaskDescriptori' uses too much sha
+red data (0xa58c bytes, 0x4000 max)
+
+THIS ONE for OBJ
+
+C:\Program Files (x86)\CMake\bin>nvcc C:/Users/dkvandyke/Source/Repos/19_SuiteSp
+arse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/GPUQREngine/
+Source/GPUQREngine_UberKernel.cu -c -o C:/Users/dkvandyke/Source/Repos/19_SuiteS
+parse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda55_vs2013/Sui
+teSparse/GPUQREngine/CMakeFiles/GPUQREngine.dir/Source/GPUQREngine_generated_GPU
+QREngine_UberKernel.cu.obj -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA
+/v5.5/include" -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/su
+itesparse-metis-for-windows-master/metis/include -IC:/Users/dkvandyke/Source/Rep
+os/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteSparse
+/. -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-me
+tis-for-windows-master/SuiteSparse/SuiteSparse_config -IC:/Users/dkvandyke/Sourc
+e/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/SuiteS
+parse/GPUQREngine/Include -IC:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis
+_for_Win/suitesparse-metis-for-windows-master/SuiteSparse/SuiteSparse_GPURuntime
+/Include -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include" -ar
+ch=sm_20
+
+
+
