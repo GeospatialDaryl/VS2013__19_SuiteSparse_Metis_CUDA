@@ -270,8 +270,8 @@ void TEMPLATE2 (CHOLMOD (gpu_reorder_descendants))
     }
 
     /* Sort the GPU-eligible supernodes */
-	qsort(scores, n_descendant, sizeof(struct cholmod_descendant_score_t),
-		(__compar_fn_t)) CHOLMOD(score_comp) );
+	//qsort(scores, n_descendant, sizeof(struct cholmod_descendant_score_t), (__compar_fn_t)   CHOLMOD(score_comp) );
+	qsort(scores, n_descendant, sizeof(struct cholmod_descendant_score_t),  CHOLMOD(score_comp) );
 
     /* Place sorted data back in descendant supernode linked list*/
     if ( n_descendant > 0 ) {

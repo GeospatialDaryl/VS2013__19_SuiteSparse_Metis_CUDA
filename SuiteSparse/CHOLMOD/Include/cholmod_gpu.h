@@ -50,10 +50,13 @@ typedef struct cholmod_gpu_pointers
     double *d_Lx [CHOLMOD_DEVICE_STREAMS] ;
     double *d_C ;
     double *d_A [CHOLMOD_DEVICE_STREAMS] ;
-    void   *d_Ls ;
+    /*void   *d_Ls ;
     void   *d_Map ;
     void   *d_RelativeMap ;
-
+	*/
+	char *d_Ls;
+	char  *d_Map;
+	char  *d_RelativeMap;
 } cholmod_gpu_pointers ;
 
 int cholmod_gpu_memorysize   /* GPU memory size available, 1 if no GPU */
