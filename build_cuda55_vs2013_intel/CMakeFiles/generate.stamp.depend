@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/CMakeLists.txt
+J:/Repos/19_SuiteSparse_Metis_for_Win/VS2013__19_SuiteSparse_Metis_CUDA/build_cuda55_vs2013_intel/CMakeFiles/3.3.0/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+J:/Repos/19_SuiteSparse_Metis_for_Win/VS2013__19_SuiteSparse_Metis_CUDA/build_cuda55_vs2013_intel/CMakeFiles/3.3.0/CMakeCCompiler.cmake
+J:/Repos/19_SuiteSparse_Metis_for_Win/VS2013__19_SuiteSparse_Metis_CUDA/build_cuda55_vs2013_intel/CMakeFiles/3.3.0/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+J:/Repos/19_SuiteSparse_Metis_for_Win/VS2013__19_SuiteSparse_Metis_CUDA/build_cuda55_vs2013_intel/CMakeFiles/3.3.0/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/checkGetSuiteSparse.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindCUDA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/UseSuiteSparseForInstall.cmake.in

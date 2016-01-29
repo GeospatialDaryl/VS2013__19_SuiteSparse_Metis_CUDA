@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=Intel C++ Compiler 16.0:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native64Bit
+Release|x64|J:\Repos\19_SuiteSparse_Metis_for_Win\VS2013__19_SuiteSparse_Metis_CUDA\build_cuda55_vs2013_intel\|

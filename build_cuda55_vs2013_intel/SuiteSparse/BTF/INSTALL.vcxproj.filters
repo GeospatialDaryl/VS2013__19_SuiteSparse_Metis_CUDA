@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="J:\Repos\19_SuiteSparse_Metis_for_Win\VS2013__19_SuiteSparse_Metis_CUDA\build_cuda55_vs2013_intel\CMakeFiles\150fae30185a01c243c6dde19b9bcffe\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0A680D4-361A-42CD-85BB-BB578A726EE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

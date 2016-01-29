@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Source\GPUQREngine_ExpertDense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Source\GPUQREngine_ExpertSparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Source\GPUQREngine_GraphVizHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Source\GPUQREngine_Internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Source\GPUQREngine_UberKernel.cu" />
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="J:\Repos\19_SuiteSparse_Metis_for_Win\VS2013__19_SuiteSparse_Metis_CUDA\build_cuda55_vs2013_intel\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\$(Configuration)\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AB0AB967-DD98-4968-A8C6-B38C16D5897B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{6A6B92D2-2304-49D3-BB3D-EFFBE865F451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
